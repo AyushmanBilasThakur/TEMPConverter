@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: palegreen;
+    padding: 40px;
+}
+
+header > h1{
+    font-size: 60px;
+    color: rebeccapurple;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    display: table-row;
+    text-align: center;
+    font-size: 70px;
+    padding: 30px;
+    border: none;
+}
