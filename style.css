@@ -8,23 +8,22 @@
 }
 
 header{
-    background-color:#0476B5;
-    padding: 40px;
-    height: 30%;
-    
-    border-bottom: 30px solid #112348;
-    
+    background-color:#154360;
+    padding-top: 50px;
+    height: 20%;
+
 }
 
 header > h1{
-    font-size: 50px;
+    font-size: 4.3rem;
+
     color:#F6F6F6;
     font-family: lato;
     text-align: center;
-    margin-top: 20px;
+
 }
 .Container{
-    height: 70%;
+    height: 80%;
     border: 1px solid #112348;
 }
 .Container > div{
@@ -40,7 +39,7 @@ input{
     border: none;
     outline: none;
     font-family: Mina;
-    background: #49C5B6;
+    background:#99CCFF  ;
 }
 ::-webkit-input-placeholder{
     font-family: Mina;
@@ -48,13 +47,16 @@ input{
 }
 
 #f{
-    border-top: 2px solid #333;
-    border-bottom: 2px solid #333;
+    border-top: 3px solid #333;
+    border-bottom: 3px solid #333;
 }
-@media screen and (max-width: 800px){
+
+
+@media screen and (max-width: 900px){
     header > h1{
         font-size: 50px;
-        margin-top: 50px;
+        padding: 10px;
+        
     }
     input{ 
         font-size: 40px;
@@ -63,20 +65,20 @@ input{
 
 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
     header > h1{
         font-size: 30px;
-        margin-top: 20px;
     }
     input{ 
         font-size: 40px;
+    }
+    header {
+        padding-top: 60px;
     }
 }
 
 @media screen and (max-width: 321px){
     header > h1{
         font-size: 30px;
-        margin-top: 20px;
     }
 }
-
