@@ -77,8 +77,21 @@ input{
     }
 }
 
-@media screen and (max-width: 321px){
+@media screen and (max-width: 350px){
     header > h1{
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width: 280px){
+    header > h1{
+        font-size: 20px;
+    }
+    header {
+        padding-top: 70px;
+    }
+    input{ 
         font-size: 30px;
     }
 }
